@@ -1,5 +1,5 @@
 In Keptn Sandbox we keep a collection of incubated tools, services and integrations that extend [Keptn](https://keptn.sh/). 
-Later succesful projects might be promoted to the [keptn-contrib](https://github.com/keptn-contrib) orgaization.
+Later succesful projects might be promoted to the [keptn-contrib](https://github.com/keptn-contrib) organization.
 
 **Contributing.**
 If you want to contribute, please read the following guidelines:
