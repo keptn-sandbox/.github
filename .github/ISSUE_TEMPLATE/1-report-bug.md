@@ -1,50 +1,56 @@
 ---
 name: "🐛 Bug report"
 labels: bug
-about: Create a bug report to help us improve
+about: "Create a bug report to help us improve"
 ---
 
 <!--
-SECURITY ISSUES:
-Never report security issues on GitHub or other public channels (Gitter/Twitter/etc.)
-Follow these instruction to report security issues: https://www.jenkins.io/security/#reporting-vulnerabilities
+For Security vulnerabilities, please refer to our security page https://github.com/keptn/keptn/blob/master/SECURITY.md
+Your issue may already be reported! Please search on the issue tracker before creating a new one.
 -->
 
-### Version report
+**Summary** <!-- Please provide a clear and concise description of what the bug is. Code samples should be put in the **To Reproduce** section. -->
 
-Jenkins and plugins versions report:
 
-<!-- paste below the version report from https://www.jenkins.io/doc/book/system-administration/diagnosing-errors/#how-to-report-a-bug -->
+**Environment**
+<!-- Please tell us about the environment in which this bug can be reproduced in -->
 
-```
-Copy/paste here....
-```
+* Keptn Version (`keptn version`): N/A
+* Kubernetes Cloud Provider (e.g., GKE, AKS): N/A
+* Kubernetes version (`kubectl version`): N/A
+* Client OS (e.g., Linux, macOS, Windows): N/A
+* Client Browser: N/A
 
-- What Operating System are you using (both controller, and any agents involved in the problem)?
+<!-- Please also let us know about other components and their version if you believe that this issue is related to them (e.g., Istio, Web Browser Version). -->
 
-```
-Paste here
-```
+**Affected Component**
+<!-- Please tell us which component of Keptn is affected (leave empty if you are unsure). -->
 
-### Reproduction steps
+* [ ] Web UI / Bridge
+* [ ] CLI
+* [ ] REST API or webhooks
+* [ ] User experience
+* [ ] Developer experience
+* [ ] Deployment/manegement with Helm
 
-<!--
-- Write bullet-point reproduction steps.
-- Be explicit about any relevant configuration, jobs, build history, user accounts, etc., redacting confidential information as needed.
-- The best reproduction steps start with a clean Jenkins install, perhaps a `docker run` command if possible.
-- Use screenshots where appropriate, copy textual output otherwise. When in doubt, do both.
-- Include relevant logs, debug if needed - https://www.jenkins.io/doc/book/system-administration/viewing-logs/
--->
+**To Reproduce**
+<!-- Please provide detailed instructions on how to reproduce the behaviour, including code samples if applicable. -->
 
-- Step 1...
-- Step 2...
+Steps to reproduce the behavior:
+1. Go to '...'
+2. Click on '....'
+3. Scroll down to '....'
+4. See error
 
-### Results
+**Expected behavior**
+<!--- Please provide a clear and concise description of what you expected to happen -->
 
-Expected result:
+**Current behavior**
+<!--- Please tell us what happens instead of the expected behavior -->
 
-<!-- What was your expected result? -->
+**Screenshots**
+<!-- If applicable, add screenshots to help explain your problem. -->
 
-Actual result:
+**Additional context**
+<!-- Add any other context about the problem here. -->
 
-<!-- What was the actual result? -->
