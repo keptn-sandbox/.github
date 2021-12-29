@@ -1,13 +1,20 @@
 ---
 name: "🚀 Feature request"
-labels: feature
-about: I have a suggestion
+labels: enhancement
+about: Suggest an improvement idea for this component
+title: "RFE: <TODO>"
 ---
 
-### Feature Request
 
-<!-- Describe your feature request here -->
+**Problem statement.**
+<!-- A clear and concise description of what the problem is. 
+     E.g. As a user I would like to [...] -->
 
-### References
+**Describe the solution you'd like**
+<!-- A clear and concise description of what you want to happen. -->
 
-<!-- Link related issues and materials here -->
+**Describe alternatives you've considered**
+<!-- A clear and concise description of any alternative solutions or features you've considered. -->
+
+**Additional context**
+<!-- Add any other context or screenshots about the feature request here.-->
